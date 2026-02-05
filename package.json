@@ -1,36 +1,36 @@
 {
-  "name": "health-backend",
+  "name": "healthshare-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "HealthShare Backend API with AI and Video Consultation",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ashwath2103/health-backend.git"
-  },
-  "keywords": [],
+  "keywords": [
+    "health",
+    "ai",
+    "video",
+    "blockchain"
+  ],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ashwath2103/health-backend/issues"
-  },
-  "homepage": "https://github.com/Ashwath2103/health-backend#readme",
-  "description": "",
+  "license": "MIT",
   "dependencies": {
-    "@supabase/supabase-js": "^2.95.0",
-    "axios": "^1.13.4",
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.6",
-    "crypto-js": "^4.2.0",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "livekit-server-sdk": "^2.15.0",
-    "multer": "^2.0.2",
-    "nodemon": "^3.1.11",
-    "openai": "^6.18.0"
+    "@supabase/supabase-js": "^2.39.3",
+    "axios": "^1.6.5",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "livekit-server-sdk": "^2.9.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }
